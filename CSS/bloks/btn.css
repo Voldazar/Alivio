@@ -1,0 +1,18 @@
+.btn, a.btn {
+    background-color: #01996D;
+    height: 51px;
+    padding: 13px 50px;
+    color: #FFFFFF;
+    font-size: 20px;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+}
+.btn a:hover, a.btn:hover{
+    opacity: 0.8;
+    color: white;
+}
+.btn-big, a.btn-big{
+    min-height: 65px;
+    display: inline-flex;
+    align-items: center;
+}

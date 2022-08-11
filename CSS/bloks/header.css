@@ -1,0 +1,44 @@
+.header{
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #D6D6D6;
+}
+.header-login{
+
+}
+.header-logo{
+
+}
+.header-row{
+    display: flex;
+    align-items: center;
+}
+.header-nav{
+    font-weight: 500;
+    color: #292929;
+    margin-left: 172px;
+}
+
+.header-nav ul{
+    display: flex;
+}
+.header-nav li:not(:last-child){
+    margin-right: 70px;
+}
+.header-nav a{
+    transition: color 0.3s ease;
+}
+.header-nav a:hover{
+    color: #01996D;
+}
+.header-login{
+    color: black;
+    margin-left: auto;
+}
+.header-login-link:hover{
+    color: #01996D;
+    transition: color 0.3s ease;
+}
+.header-login-link:not(:last-child){
+    margin-right: 35px;
+}

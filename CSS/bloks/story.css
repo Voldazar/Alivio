@@ -1,0 +1,50 @@
+.story{
+    background-color: #245852;
+    padding: 229px 0 176px ;
+    color: white;
+}
+.story-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.story-content{
+    margin-right: 30px;
+    max-width: 580px;
+}
+.story-heading{
+    padding-bottom: 33px;
+    font-family: 'Georgia', serif;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 157%;
+}
+.story-text{
+    font-family: 'Lato', serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+    padding-bottom: 57px;
+}
+.video-btn{
+   position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.story-video {
+    width: 895px;
+    position: relative;
+}
+.video-overlay{
+    position:absolute ;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+
+}
+.video{
+
+}
+
