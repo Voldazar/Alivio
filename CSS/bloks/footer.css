@@ -1,0 +1,37 @@
+.footer-nav a:hover{
+    opacity: 0.8;
+}
+.footer-nav a{
+    transition: opacity 0.2s ease;
+}
+.footer-content{
+    margin-left: 275px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 105px;
+    padding-bottom: 144px;
+    color: white;
+}
+.footer-logo{
+    height: 30px;
+    width: 100px;
+
+}
+.footer{
+    background-color: #245852;
+
+}
+.footer-logo{
+    filter: grayscale(1);
+}
+.footer-nav li + li{
+    margin-top: 60px;
+    font-family: 'Lato', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+.li-title {
+    font-size: 35px;
+    font-weight: 500;
+}
